@@ -1,0 +1,174 @@
+body{
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    background-image: url(images/black-texture-background-368x245.jpg);
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+      color: beige;
+  }
+  
+  .row {
+    margin: 8px -16px;
+      color: orangered;
+  }
+  
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 25%;
+     
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .content {
+    background-color: mintcream;
+    padding: 10px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+  
+   h2 {
+       font-size: 50px;
+    word-break: break-all;
+      color: beige;
+}
+p{
+   font-size: 20px;
+    word-break: break-all;
+      color: orangered; 
+}
+li{
+    color: azure;
+}
+
+footer{
+   width: 100%;
+    margin-left: 30%;
+    
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+    
+}
+
+.fa-twitter {
+  background: rgba(5, 243, 231, 0.842);
+  color: white;
+    
+}
+
+.fa-instagram {
+    background: rgb(218, 43, 95);
+    color: white;
+}
+.column-1 {
+  flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.row-1 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.st {
+    text-align: center;
+}
+.name {
+    color: beige;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.photo{
+    border: 5px solid white;
+}
+.logo1{
+    height: 120px;
+   
+}
+.mid2{
+  width: 50%;
+}
+ 
